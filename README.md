@@ -1,4 +1,10 @@
 # Case-7
+## the case was done by
+- Журавлева Анна
+- Мошкина Галина
+- Левчук Софья
+- Суханова Мария
+#
 Before the beginning of the task we had to download docker desktop to easily monitor our containers and wsl to work with docker on Windows.
 After everything had been installed we were ready to start
 
