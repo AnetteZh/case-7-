@@ -87,7 +87,7 @@ volumes:
   ollama_data:
 ```
 
-We added healthchecks on each container to ensure that everything works correctly. n8n won't start before postgres and redis aren't ready to work. Volumes were added for each container to save all the information about all sessions.
+We added healthchecks in each container to ensure that everything works correctly. n8n won't start before postgres and redis aren't ready to work. Volumes were added for each container to save all the information about all sessions.
 Each container restarts right after it was stopped if a computer restarts
 
 After this we build our containers with 
